@@ -16,6 +16,7 @@ This guide outlines the steps needed to set up a Kubernetes cluster using kubead
 Run the following commands on both the master and worker nodes to prepare them for kubeadm.
 
 ```bash
+cd /
 cd "mnt/c/Users/Rafid Mehda/Downloads"
 # using 'sudo su' is not a good practice.
 sudo apt update
